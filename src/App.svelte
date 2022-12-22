@@ -1,5 +1,6 @@
 <script>
 
+  // TODO manage routing to /login and /signup
   import { fly } from "svelte/transition";
 
   var ongoing_todos = [];
@@ -22,6 +23,14 @@
     });
     ongoing_todos = [...ongoing_todos];
   };
+
+  // TODO accept json data from api
+  const exportData = () => {
+    const js = {
+      "ongoing": [...ongoing_todos],
+      "completed": [...completed_todos]
+    }
+  }
 
 </script>
 

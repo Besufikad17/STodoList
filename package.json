@@ -14,8 +14,10 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "svelte-forms-lib": "^2.0.1",
     "svelte-navigator": "^3.2.2",
     "svelte-routing": "^1.6.0",
-    "sveltik": "^0.1.16"
+    "sveltik": "^0.1.16",
+    "yup": "^0.32.11"
   }
 }

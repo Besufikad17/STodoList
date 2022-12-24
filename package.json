@@ -14,6 +14,8 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "svelte-navigator": "^3.2.2",
+    "svelte-routing": "^1.6.0",
     "sveltik": "^0.1.16"
   }
 }
